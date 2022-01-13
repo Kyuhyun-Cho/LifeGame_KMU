@@ -1,4 +1,5 @@
 import sys
+
 import lifegame
 import os
 import curses
@@ -6,7 +7,7 @@ import curses
 data = lifegame.load('inputdata.txt')
 cur_board = lifegame.set_board(data)
 
-time = 500
+time = 1000
 time_intergration = 0
 
 lifegame.stdscr = curses.initscr()
